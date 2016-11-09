@@ -21,10 +21,13 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".rspec",
+    ".semver",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.org",
     "Rakefile",
+    "dw-currency-converter.gemspec",
     "lib/dw-currency-converter.rb",
     "spec/money_spec.rb",
     "spec/spec_helper.rb"
