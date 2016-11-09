@@ -1,5 +1,11 @@
 * Ruby/Fullstack Task
+  This is a simple gem to do currency conversion. It was inspired
+  by a challenge from a particular firm, but might be useful
+  to you otherwise.
 
+** Documentation
+
+** Canidate Challenge
 Hello dear candidate,
 
 as part of the interview process to join the DaWanda Engineering Team,
