@@ -1,4 +1,4 @@
-# coding: utf-8
+# encoding: utf-8
 
 module DwCurrencyConv
   class Money
@@ -19,8 +19,10 @@ module DwCurrencyConv
       begin
         if currency == @@base_currency # converting to base currency
           Money.new(self.amount * 1.0 / @@rate_list[self.currency], currency)
+          
         elsif self.currency == @@base_currency # converting from the base currency
           Money.new(self.amount * @@rate_list[currency] / 1.0, currency)
+          
         else # converting between currencies -- first conver to base, then from base to target
           convert_to(@@base_currency).convert_to(currency)
         end

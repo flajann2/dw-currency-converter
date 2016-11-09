@@ -4,9 +4,15 @@
   to you otherwise.
 
 ** Documentation
+   Please see the tests in [[./spec/money_spec.rb][RSpec Money Test]] as an example of usage.
 
 ** Canidate Challenge
-Hello dear candidate,
+*** Canidate Note
+    I added simplified exception handling for attempted
+    conversions that are not covered. 
+
+*** Requirements and Expectations
+    Hello dear candidate,
 
 as part of the interview process to join the DaWanda Engineering Team,
 we would ask you to complete a short homework task. We hope you will
@@ -88,11 +94,3 @@ gem or contribute to it.
 Please note that the actual numbers here are based on the conversion
 rate at the time we wrote the task. With different rates you will get
 different numbers.
-
-We evaluate your code submission independently from your CV. If you
-prefer to remain anonymous, please make sure not to leave any clues
-regarding yourself (name, email, etc.) in the code.
-
-Let me know if you have any questions.
-
-Good luck!
