@@ -22,12 +22,14 @@ Juwelier::Tasks.new do |gem|
   gem.name = "dw-currency-converter"
   gem.homepage = "http://github.com/flajann2/dw-currency-converter"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple Conversion between currencies using a base currency.}
+  gem.description = %Q{Convert between any two specified currencies.
+ This is not ready for prime-time usage yet, but
+ can be used for now in non-production code.}
   gem.email = "fred.mitchell@gmx.de"
   gem.authors = ["Fred Mitchell"]
   gem.version = s_version
-  gem.required_ruby_version = '>= '
+  gem.required_ruby_version = '>= 2.3.1'
 
   # dependencies defined in Gemfile
 end
