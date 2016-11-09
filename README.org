@@ -44,7 +44,7 @@ and the usage of the gem should be something like this:
 
     fifty_eur.amount   # => 50
     fifty_eur.currency # => "EUR"
-    fifty_eur.inspect  # => "50.00 EUR"
+    fifty_eur.inspect  # => "50.00 E0UR"
 
     # Convert to a different currency (should return a Money
     # instance, not a String):
